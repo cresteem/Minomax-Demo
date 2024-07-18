@@ -1,0 +1,10 @@
+{
+  "name": "minomax-demo",
+  "version": "1.0.0",
+  "description": "Demo of minomax",
+  "main": "index.js",
+  "repository": "https://github.com/cresteem/Minomax-Demo.git",
+  "author": "PRIYADARSAN S <iamspdarsan@gmail.com>",
+  "license": "GPL-3.0-only",
+  "private": false
+}

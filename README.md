@@ -1,1 +1,1 @@
-"# Minomax-Demo" 
+# Minomax-Demo
