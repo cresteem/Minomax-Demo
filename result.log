@@ -1,0 +1,54 @@
+
+[8:52:19] +++> Imageset generation started.
+Number of htmlfile in queue: 4
+Number of htmlfile at a time: 1
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\process.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\python.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\django.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\php.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\js.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\nodejs.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\react.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\jquery.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\html.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\css.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\dart.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\flutter.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\csh.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\cpp.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\java.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\dotnet.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\mysql.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\firebase.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\mongodb.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\graph.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\insta-b.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\x-b.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\fb-b.svg not existing so skipping it
+C:\Users\spart\Desktop\Ongoing_Projects\Minomax-Demo\samples\webdoc\mangler-testset\svg\linkedin-b.svg not existing so skipping it
+[8:53:20] ===> Imageset generation completed.
+
+[8:53:20] +++> Img tags transformation & Video thumbnail linking started.
+[8:53:21] ===> Transformation completed.
+Number of images: 75
+[8:53:21] +++> Image Encoding Started
+[8:53:54] ===> Images are optimised with JPG format.
+Number of images: 1
+[8:53:54] +++> Image Encoding Started
+[8:53:54] ===> Images are optimised with SVG format.
+
+[8:53:54] +++> Video Encoding started.
+Number of videos in queue: 3
+Number of encodes at a time: 1
+[8:55:31] ===> Videos were encoded.
+
+[8:55:31] +++> Thumbnail generation started.
+[8:55:31] ===> Thumbnails were generated.
+
+[8:55:31] +++> Web docs minification process started.
+Unique classes count = 72
+Unique IDs count = 39
+Number of Web docs in queue: 9
+Number of Web docs at a time: 7
+
+[8:55:32] +++> Web docs were minified.
