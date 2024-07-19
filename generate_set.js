@@ -1,7 +1,9 @@
 const { generateImageSets } = require("@cresteem/minomax");
 
-const htmlPathPatterns = ["**/*.html"];
-const destinationBasePath = "./dest";
-const ignorePatterns = [];
+const htmlPathPatterns = ["samples/**/*.html"];
+const destinationBasePath = "./imageset_results";
+const ignorePatterns = ["./dist/**"];
 
-await generateImageSets(htmlPathPatterns, destinationBasePath, ignorePatterns);
+generateImageSets(htmlPathPatterns, destinationBasePath, ignorePatterns).catch(
+  console.log
+);
