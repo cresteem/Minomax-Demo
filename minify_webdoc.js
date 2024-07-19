@@ -1,13 +1,17 @@
 const { minifyWebdoc } = require("@cresteem/minomax");
 
-const pathPatterns = ["**/*.css", "**/*.js", "**/*.html"];
-const destinationBasePath = "./dest";
-const fileSearchBasePath = "./app";
-const ignorePatterns = [];
+const pathPatterns = [
+  "samples/**/*.css",
+  "samples/**/*.js",
+  "samples/**/*.html",
+];
+const destinationBasePath = "./webdoc_results";
+const fileSearchBasePath = "./";
+const ignorePatterns = ["./dist/**"];
 
-await minifyWebdoc(
+minifyWebdoc(
   pathPatterns,
   destinationBasePath,
   fileSearchBasePath,
   ignorePatterns
-);
+).catch(console.log);

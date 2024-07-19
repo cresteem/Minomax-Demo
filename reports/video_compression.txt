@@ -1,0 +1,7 @@
+[21:23:3] +++> Video Encoding started.
+Number of videos in queue: 3
+Number of encodes at a time: 2
+[22:11:32] ===> Videos were encoded.
+
+[22:11:32] +++> Thumbnail generation started.
+[22:11:34] ===> Thumbnails were generated.

@@ -1,0 +1,7 @@
+[22:27:27] +++> Web docs minification process started.
+Unique classes count = 72
+Unique IDs count = 39
+Number of Web docs in queue: 9
+Number of Web docs at a time: 9
+
+[22:27:27] +++> Web docs were minified.
