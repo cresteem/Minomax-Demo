@@ -1,0 +1,8 @@
+[22:39:17] +++> Imageset generation started.
+Number of htmlfile in queue: 4
+Number of htmlfile at a time: 2
+........(striped)
+[22:40:8] ===> Imageset generation completed.
+
+[22:40:8] +++> Img tags transformation & Video thumbnail linking started.
+[22:40:8] ===> Transformation completed.
