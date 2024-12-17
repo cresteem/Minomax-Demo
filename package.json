@@ -8,8 +8,7 @@
   "license": "GPL-3.0-only",
   "private": false,
   "dependencies": {
-    "@cresteem/minomax": "^0.1.0",
-    "sharp": "^0.33.4"
+    "@cresteem/minomax": "^0.1.0"
   },
   "homepage": "https://minomax.cresteem.com/",
   "keywords": []
