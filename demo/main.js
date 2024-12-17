@@ -2,10 +2,10 @@ const { Minomax } = require("@cresteem/minomax");
 
 new Minomax()
   .minomax({
-    imageWorkerParams: { targetFormat: "jpg" },
+    imageWorkerParams: { targetFormat: "webp" },
     videoWorkerParams: { codecType: "mx265", encodeLevel: 1 },
-    destinationBasePath: "dist",
-    ignorePatterns: ["dist/**", "*.config.js"],
-    webDocFilesPatterns: ["./webdoc_sources/**/*.html"],
+    destinationBasePath: "./results",
+    ignorePatterns: ["dist/**", "demo/**", "reports/**"],
+    webDocFilesPatterns: ["samples/webdocs/**"],
   })
   .catch(console.error);
