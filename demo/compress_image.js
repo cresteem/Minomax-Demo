@@ -1,13 +1,15 @@
-const { compressImages } = require("@cresteem/minomax");
+const { Minomax } = require("@cresteem/minomax");
 
 const pathPatterns = ["**/*.jpeg", "**/*.jpg", "**/*.webp", "**/*.png"];
-const targetFormat = "avif"; //"jpg" | "avif" | "webp" | "svg"
+const targetFormat = "webp"; //"jpg" | "avif" | "webp" | "svg"
 const destinationBasePath = "./image_results";
-const ignorePatterns = ["./dist/**"];
+const ignorePatterns = ["./dist/**", "./reports/**"];
 
-compressImages(
-  pathPatterns,
-  targetFormat,
-  destinationBasePath,
-  ignorePatterns
-).catch(console.log);
+new Minomax()
+  .compressImages({
+    pathPatterns,
+    targetFormat,
+    destinationBasePath,
+    ignorePatterns,
+  })
+  .catch(console.log);
