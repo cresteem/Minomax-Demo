@@ -4,7 +4,11 @@ const { Minomax } = require("@cresteem/minomax");
 
 const htmlPathPatterns = ["samples/**/*.html"];
 const destinationBasePath = "./results/imageset";
-const ignorePatterns = ["./dist/**", "./reports/**"];
+const ignorePatterns = [
+  "./dist/**",
+  "./reports/**",
+  "./samples/webdocs/excess/**",
+];
 
 new Minomax()
   .generateImageSets({
